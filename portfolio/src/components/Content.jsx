@@ -5,15 +5,16 @@ export const Content = () => {
     <>
       <div className="contentWrap">
         <div className="side sideText">ABOUT ME</div>
-        <div className="content">
+        <div className="content" id="about">
           <p className="content__text">
             <i className="fa-solid fa-chart-line"></i>&nbsp; I have highly
             developed analytical and negotiating skills. New things and
             challenges awake in me a great motivation to act.
             <br />
-            <i class="fa-solid fa-handshake"></i>&nbsp; In my sales career, I am
-            guided by the principles that build lasting relationships with the
-            client. Such action always allows me to be successful in this field.
+            <i className="fa-solid fa-handshake"></i>&nbsp; In my sales career,
+            I am guided by the principles that build lasting relationships with
+            the client. Such action always allows me to be successful in this
+            field.
           </p>
           <p className="content__text">
             Privately, I am interested in:

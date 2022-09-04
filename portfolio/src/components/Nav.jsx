@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Social } from "../helpers/Social";
+import { Skills } from "./Skills";
 
 export const Nav = () => {
   return (
@@ -29,12 +31,12 @@ export const Nav = () => {
           </Link>
           <Link
             className="link"
-            to="portfolio"
+            to="experience"
             spy={true}
             smooth={true}
             duration={500}
           >
-            Portfolio
+            Experience
           </Link>
           <Link
             className="link"
@@ -46,6 +48,7 @@ export const Nav = () => {
             Contact Me
           </Link>
         </ul>
+        <Social />
       </div>
     </>
   );
